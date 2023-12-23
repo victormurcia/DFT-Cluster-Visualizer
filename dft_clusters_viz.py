@@ -1,9 +1,16 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import requests
+
+plot_url = 'https://drive.google.com/uc?export=download&id=1uczhuw8go5I-d0NpJbcQ2vDj4O8pzo5q'
+
+# For HTML Plotly plot
+html_content = requests.get(plot_url).text
+#components.html(html_content, height=800)
 
 # Load the HTML file
-html_file = open('dft_clusters.html', 'r', encoding='utf-8')
-source_code = html_file.read() 
+#html_file = open('dft_clusters.html', 'r', encoding='utf-8')
+#source_code = html_file.read() 
 
 # Set up the title and description for the Streamlit app
 st.title('Interactive Visualization of DFT Clustering Algorithm')
