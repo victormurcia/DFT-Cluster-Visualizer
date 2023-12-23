@@ -2,8 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import requests
 
-plot_url = 'https://drive.google.com/uc?export=download&id=1uczhuw8go5I-d0NpJbcQ2vDj4O8pzo5q'
-
+plot_url = 'https://drive.google.com/uc?export=download&id=1PaA-QEKOBz1ccBtKPYjgdgiHXMIAqcFN'
 # For HTML Plotly plot
 html_content = requests.get(plot_url).text
 #components.html(html_content, height=800)
