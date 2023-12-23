@@ -18,4 +18,4 @@ st.write('This interactive plot demonstrates the clustering visualization. Hover
 st.write('This was made using Plotly, unfortunately, encoding the coloring algorithm I made was not possible to implement at the moment. But maybe in the future...')
 
 # Use Streamlit's components.html to display the plot
-components.html(source_code, width=700, height=800)
+components.html(html_content , width=700, height=800)
