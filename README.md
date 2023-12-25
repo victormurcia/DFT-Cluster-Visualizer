@@ -10,3 +10,5 @@ I also started playing with making this visualization interactive by using Plotl
 
 You can find the app here: 
 ![Interactive Demo](https://dft-cluster-visualizer-5paa583li2mtzeskmztwzk.streamlit.app/)
+
+https://dft-cluster-visualizer-5paa583li2mtzeskmztwzk.streamlit.app/
